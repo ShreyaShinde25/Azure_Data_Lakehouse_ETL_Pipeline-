@@ -1,0 +1,7 @@
+{
+	"name": "AzureDataLakeStorage661",
+	"properties": {
+		"privateLinkResourceId": "/subscriptions/27f403da-c56f-4611-a41b-793f20fe2a4d/resourceGroups/ETL_data_engineering_project/providers/Microsoft.Storage/storageAccounts/srsdlwgen2",
+		"groupId": "dfs"
+	}
+}
