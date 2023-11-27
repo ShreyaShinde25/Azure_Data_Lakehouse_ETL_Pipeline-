@@ -1,0 +1,7 @@
+{
+	"name": "copy_all_tables",
+	"properties": {
+		"description": "To copy all the tables\n",
+		"annotations": []
+	}
+}
