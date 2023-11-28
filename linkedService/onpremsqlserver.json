@@ -1,19 +1,13 @@
 {
 	"name": "onpremsqlserver",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
 	"properties": {
 		"annotations": [],
 		"type": "SqlServer",
 		"typeProperties": {
-			"connectionString": "Integrated Security=True;Data Source=DESKTOP-PEANVEC;Initial Catalog=AdventureWorksLT2022",
+			"connectionString": "integrated security=True;data source=DESKTOP-PEANVEC;initial catalog=AdventureWorksLT2022",
 			"userName": "srs",
-			"password": {
-				"type": "AzureKeyVaultSecret",
-				"store": {
-					"referenceName": "AzureKeyVault1",
-					"type": "LinkedServiceReference"
-				},
-				"secretName": "password"
-			}
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJmYTE0NTcxOC1iNmNmLTRmOWYtOThiYi1jMzZiNzZkMDUyNGUiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
 		},
 		"connectVia": {
 			"referenceName": "self-hosted-integration-runtime",
