@@ -28,7 +28,7 @@
 				},
 				"fileSystem": "bronze"
 			},
-			"compressionCodec": "none"
+			"compressionCodec": "snappy"
 		},
 		"schema": []
 	}
