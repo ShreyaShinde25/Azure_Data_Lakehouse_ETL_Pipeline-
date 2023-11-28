@@ -9,7 +9,7 @@
 			"value": ""
 		},
 		"onpremsqlserver_connectionString": {
-			"value": "Integrated Security=False;Data Source=DESKTOP-PEANVEC;Initial Catalog=AdventureWorksLT2017;User ID=srs"
+			"value": "Integrated Security=False;Data Source=DESKTOP-PEANVEC;Initial Catalog=AdventureWorksLT2022;User ID=srs"
 		},
 		"AzureDataLakeStorage1_properties_typeProperties_url": {
 			"value": "https://srsdlwgen2.dfs.core.windows.net/"
