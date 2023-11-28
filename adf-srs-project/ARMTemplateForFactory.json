@@ -178,6 +178,7 @@
 												"type": "Expression"
 											},
 											"queryTimeout": "02:00:00",
+											"isolationLevel": "ReadCommitted",
 											"partitionOption": "None"
 										},
 										"sink": {
@@ -270,7 +271,7 @@
 						},
 						"fileSystem": "bronze"
 					},
-					"compressionCodec": "none"
+					"compressionCodec": "snappy"
 				},
 				"schema": []
 			},
