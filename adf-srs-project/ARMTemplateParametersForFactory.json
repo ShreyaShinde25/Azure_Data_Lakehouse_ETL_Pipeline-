@@ -22,6 +22,9 @@
 		},
 		"AzureDataLakeStorage661_properties_groupId": {
 			"value": "dfs"
+		},
+		"AzureDatabricks1_properties_typeProperties_existingClusterId": {
+			"value": "Data_Transformation"
 		}
 	}
 }
