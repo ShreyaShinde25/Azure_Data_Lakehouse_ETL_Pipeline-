@@ -8,11 +8,17 @@
 		"AzureDataLakeStorage1_accountKey": {
 			"value": ""
 		},
+		"AzureDatabricks1_accessToken": {
+			"value": ""
+		},
 		"onpremsqlserver_connectionString": {
 			"value": "Integrated Security=False;Data Source=DESKTOP-PEANVEC;Initial Catalog=AdventureWorksLT2022;User ID=srs"
 		},
 		"AzureDataLakeStorage1_properties_typeProperties_url": {
 			"value": "https://srsdlwgen2.dfs.core.windows.net/"
+		},
+		"AzureDatabricks1_properties_typeProperties_existingClusterId": {
+			"value": "1204-005553-vkm4zug1"
 		},
 		"AzureKeyVault1_properties_typeProperties_baseUrl": {
 			"value": "https://key-vault-srs.vault.azure.net/"
@@ -22,9 +28,6 @@
 		},
 		"AzureDataLakeStorage661_properties_groupId": {
 			"value": "dfs"
-		},
-		"AzureDatabricks1_properties_typeProperties_existingClusterId": {
-			"value": "Data_Transformation"
 		}
 	}
 }
